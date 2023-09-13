@@ -7,16 +7,13 @@
 }
 
 body {
-    background-image: url(/imagens/fundo-madeira.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-image: url(imagens/fundo-madeira.jpg);
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-html, body {
-    height: 100vh;
-    width: 100vw;
 }
 
 main {
@@ -32,7 +29,7 @@ section#telefone {
 
     height: 627px;
     width: 311px;
-    background-image: url(/imagens/frame-iphone.png);
+    background-image: url(imagens/frame-iphone.png);
 }
 
 iframe#tela {
